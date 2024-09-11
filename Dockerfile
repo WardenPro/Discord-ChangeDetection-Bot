@@ -1,12 +1,10 @@
-FROM node:22.3.0-alpine
+FROM node:18-alpine
 
 WORKDIR /app
 
 COPY package.json yarn.lock ./
 
-RUN corepack enable
-
-RUN yarn install
+RUN yarn install --production
 
 COPY . .
 
