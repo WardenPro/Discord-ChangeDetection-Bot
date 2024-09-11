@@ -12,7 +12,7 @@ Ce projet utilise Docker pour déployer une API qui envoie des messages privés 
 
 1. Clonez ce dépôt :
    ```bash
-   git clone [<url-du-repo>](https://github.com/WardenPro/Discord-ChangeDetection-Bot)
+   git clone https://github.com/WardenPro/Discord-ChangeDetection-Bot
    cd Discord-ChangeDetection-Bot
    ```
 2. Modifiez le fichier `docker-compose.yml` avec le token de votre bot :
